@@ -1,20 +1,6 @@
 # ascii spiders
 
-```
-                                         |                 |         |
-       |         |               |       |                 |         |
-       |   8@#`  |              |   ,'   |                 |   SX    |
-       |  .%+%8  |              |  .t%X  |                 |   XS'   |
-       |_ .8++@_-               |_ #%#@ /|                 ¯_  °o. _-
-       __¯-`X'¯  _              | -.SS`/ |                \  ¯-°o_-  /
-      /\\¯¯,8#¯¯//\              |--S8---|                 \ __XX_  /
-     /  _/¯   ¯\   \              --,#\--_               /¯¯¯_-¯.\¯¯¯--
-    /  |        ¯-  \           -¯//   \  |             /  _-     \    \
-       |         |             | /      \\|            / |¯        \    \
-       |        |              | |       | |           /  |         \    \
-       |        |              | |       | |          /   |          |    \
-                |                                         |          |
-```
+![ASCII orb weavers on their webs, a jumping spider and flies](banner.gif)
 
 Orb webs and spiders drawn as ASCII on a canvas. Zero dependencies.
 
