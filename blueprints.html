@@ -1,0 +1,169 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>ascii spiders · blueprints</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link href="https://fonts.googleapis.com/css2?family=Geist+Mono:wght@400;600&family=Montserrat:wght@200;300;400&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="/pages/style.css" />
+  </head>
+  <body>
+    <header class="meta">
+      <span>ascii spiders · blueprints · 10 fig.</span>
+      <nav>
+        <a href="/">Index</a>
+        <a href="/light">Light</a>
+        <a href="/dark">Dark</a>
+        <a href="/blueprints" aria-current="page">Blueprints</a>
+      </nav>
+    </header>
+    <section class="intro">
+      <span class="mono-label">Blueprints</span>
+      <h1>From a thread to spiders.</h1>
+      <p class="lede">Ten frames on the same grid, from one strand of silk to a hunting spider.</p>
+    </section>
+    <main class="board">
+      <figure class="plate">
+        <figcaption>
+          <div class="head">
+            <span class="mono-label">Fig. 01 · Silk</span>
+            <h2>A thread that only pulls.</h2>
+          </div>
+          <div class="note">
+            <p>Every strand is a distance constraint that resists stretching and goes slack instead of pushing. Pre-tensioned between twigs, the frame hangs, sags a touch, rings when plucked, and snaps past twice its length. Pluck it.</p>
+          </div>
+        </figcaption>
+        <div class="stage"><canvas data-fig="silk" aria-hidden="true"></canvas><span class="mono-label tag" data-tag="silk">Fig. 01 · Silk</span></div>
+      </figure>
+      <figure class="plate">
+        <figcaption>
+          <div class="head">
+            <span class="mono-label">Fig. 02 · Radials</span>
+            <h2>Spokes, ten glyphs apart.</h2>
+          </div>
+          <div class="note">
+            <p>Radials run from the hub out to the frame, spaced so each reads as its own line at the rim. A small hub mesh holds them, and they go down in bit-reversed order so the tension stays balanced.</p>
+          </div>
+        </figcaption>
+        <div class="stage"><canvas data-fig="radials" aria-hidden="true"></canvas><span class="mono-label tag" data-tag="radials">Fig. 02 · Radials</span></div>
+      </figure>
+      <figure class="plate">
+        <figcaption>
+          <div class="head">
+            <span class="mono-label">Fig. 03 · Spiral</span>
+            <h2>A turn every three rows.</h2>
+          </div>
+          <div class="note">
+            <p>The sticky capture spiral is laid from the rim inward as straight chords between radials. It is kept open on purpose, so the web stays quiet behind everything else.</p>
+          </div>
+        </figcaption>
+        <div class="stage"><canvas data-fig="spiral" aria-hidden="true"></canvas><span class="mono-label tag" data-tag="spiral">Fig. 03 · Spiral</span></div>
+      </figure>
+      <figure class="plate">
+        <figcaption>
+          <div class="head">
+            <span class="mono-label">Fig. 04 · Glyphs</span>
+            <h2>One glyph per step.</h2>
+          </div>
+          <div class="note">
+            <p>A thread claims one cell per step along its major axis, as a hand-drawn line does, and its direction picks the glyph. Where threads cross, the strongest runs through. Only the hub gets a knot. Silk brightens where it rings.</p>
+            <div class="ramp" aria-label="Silk glyphs, from level threads to the hub">
+              <span class="mono-label">Level</span>
+              <code>¯ - _ | / \ *</code>
+              <span class="mono-label">Hub</span>
+            </div>
+          </div>
+        </figcaption>
+        <div class="stage"><canvas data-fig="glyphs" aria-hidden="true"></canvas><span class="mono-label tag" data-tag="glyphs">Fig. 04 · Glyphs</span></div>
+      </figure>
+      <figure class="plate">
+        <figcaption>
+          <div class="head">
+            <span class="mono-label">Fig. 05 · Build</span>
+            <h2>The order of the night.</h2>
+          </div>
+          <div class="note">
+            <p>Frame first, then each radial out and back, the hub rings, and the spiral from the outside in. The spider holds the loose end while it lays, so new silk never swings. When the web is worn out, it eats it and spins the next.</p>
+          </div>
+        </figcaption>
+        <div class="stage"><canvas data-fig="build" aria-hidden="true"></canvas><span class="mono-label tag" data-tag="build">Fig. 05 · Build</span></div>
+      </figure>
+      <figure class="plate">
+        <figcaption>
+          <div class="head">
+            <span class="mono-label">Fig. 06 · Gait</span>
+            <h2>Four feet down, always.</h2>
+          </div>
+          <div class="note">
+            <p>Feet are planted in the world and lift only once they drift too far, and only while their neighbours stand, so the legs fall into the alternating tetrapod rhythm unasked. Strides ease in and out and arc outward as they lift. Move the cursor and hold still.</p>
+          </div>
+        </figcaption>
+        <div class="stage"><canvas data-fig="gait" aria-hidden="true"></canvas><span class="mono-label tag" data-tag="gait">Fig. 06 · Gait</span></div>
+      </figure>
+      <figure class="plate">
+        <figcaption>
+          <div class="head">
+            <span class="mono-label">Fig. 07 · Body</span>
+            <h2>Two ellipses, lit from the top left.</h2>
+          </div>
+          <div class="note">
+            <p>Prosoma and abdomen are sampled five times per cell, so the outline is anti-aliased with punctuation. Each block gets a character from the ramp, sparse where lit, dense in shadow. The abdomen breathes.</p>
+            <div class="ramp" aria-label="Glyph ramp from light to shadow">
+              <span class="mono-label">Light</span>
+              <code>: ; t % S X 8 # @</code>
+              <span class="mono-label">Shadow</span>
+            </div>
+          </div>
+        </figcaption>
+        <div class="stage"><canvas data-fig="body" aria-hidden="true"></canvas><span class="mono-label tag" data-tag="body">Fig. 07 · Body</span></div>
+      </figure>
+      <figure class="plate">
+        <figcaption>
+          <div class="head">
+            <span class="mono-label">Fig. 08 · Species</span>
+            <h2>Four bodies.</h2>
+          </div>
+          <div class="note">
+            <p>Species differ only in proportions, leg lengths, how the legs rest, markings and tint. The jumping spider hunts on the wall instead of in a web.</p>
+          </div>
+        </figcaption>
+        <div class="stage cells">
+          <div class="cell"><canvas data-fig="species-araneus" aria-hidden="true"></canvas><span class="mono-label tag">garden spider</span></div>
+          <div class="cell"><canvas data-fig="species-argiope" aria-hidden="true"></canvas><span class="mono-label tag">wasp spider</span></div>
+          <div class="cell"><canvas data-fig="species-nephila" aria-hidden="true"></canvas><span class="mono-label tag">golden orb weaver</span></div>
+          <div class="cell"><canvas data-fig="species-jumper" aria-hidden="true"></canvas><span class="mono-label tag">jumping spider</span></div>
+        </div>
+      </figure>
+      <figure class="plate">
+        <figcaption>
+          <div class="head">
+            <span class="mono-label">Fig. 09 · Hunt</span>
+            <h2>Stuck, wrapped, carried home.</h2>
+          </div>
+          <div class="note">
+            <p>A fly that crosses the capture spiral sticks and thrashes, and the silk carries it. The spider walks out along the nearest radial, wraps the fly while turning it, and carries the parcel back to the hub to feed.</p>
+          </div>
+        </figcaption>
+        <div class="stage"><canvas data-fig="hunt" aria-hidden="true"></canvas><span class="mono-label tag" data-tag="hunt">Fig. 09 · Hunt</span></div>
+      </figure>
+      <figure class="plate">
+        <figcaption>
+          <div class="head">
+            <span class="mono-label">Fig. 10 · Hedge</span>
+            <h2>Wherever there is room.</h2>
+          </div>
+          <div class="note">
+            <p>Webs in mixed sizes, each strung in the emptiest part of the page left. The spiders build, hunt, eat their webs and spin new ones, and a jumping spider stalks the cursor.</p>
+          </div>
+        </figcaption>
+        <div class="stage"><canvas data-fig="hedge" aria-hidden="true"></canvas><span class="mono-label tag" data-tag="hedge">Fig. 10 · Hedge</span></div>
+      </figure>
+    </main>
+    <footer class="meta">
+      <span>MIT · zero dependencies</span>
+      <nav><a href="https://github.com/stackedlol/ascii-spiders">Source</a></nav>
+    </footer>
+    <script type="module" src="/pages/blueprints.ts"></script>
+  </body>
+</html>
